@@ -5,11 +5,17 @@ Write a function total_sides that returns the number of sides of the object.
 */
 
 
-let circletext = '<ol>' //adding to this
+
+let circletext = '<ol>' 
+
+
+
 class Circle {
 
   constructor(radius,sides) {
+    
     this.radius = radius;
+    
     this.sides = sides;
 
   } // closing constructor
@@ -31,39 +37,59 @@ class Circle {
   }
 }
 
+
+
 const cir1 = new Circle(10);
   const cir2 = new Circle(15);
     const cir3 = new Circle(20);
+
 
 cir1.circle_area();
   cir1.total_sides(0);
     cir1.displayText();
 
+
   cir2.circle_area();
     cir2.total_sides(0)
       cir2.displayText();
+
 
 cir3.circle_area();
   cir3.total_sides(0);
     cir3.displayText()
 
+
 circletext = circletext + "</ol>"
+
+
+
+
+
 
 /*
 Define a new class called Rectangle with appropriate attributes and instantiate a few Rectangle objects.
 Write a function called rectangle_area that returns the area of the given object.
 Write a function total_sides that returns the number of sides of the object.*/
 
+
+
+
 let recText = "<ol>"
+
+
 class Rectangle {
   constructor(width,length,sides){
+    
     this.length = length;
+    
     this.width = width;
+    
     this.sides = sides
 
   }
   rectangle_area(){
     let area = this.length * this.width;
+    
     this.area = area;
   }
 
@@ -79,27 +105,50 @@ class Rectangle {
     const rec2 = new Rectangle(15,20,4)
       const rec3 = new Rectangle(20,25,4)
 
+      
+      
     rec1.rectangle_area();
       rec1.total_sides(4);
         rec1.displayText2();
+
+
 
     rec2.rectangle_area();
       rec2.total_sides(4);
         rec2.displayText2();
 
+
+
     rec3.rectangle_area();
       rec3.total_sides(4);
         rec3.displayText2();
+
+
   recText = recText + "</ol>"
+
+
+
+
+
 /*
 Define a new class called Square with appropriate attributes and instantiate a few Square objects.
 Write a function called square_area that returns the area of the given object.
 Write a function total_sides that returns the number of sides of the object.
 */
+
+
+
+
+
+
 let sqText = "<ol>"
+
+
 class Square {
   constructor(length,sides){
+    
     this.length = length;
+    
     this.sides = sides;
 
   }
@@ -120,28 +169,39 @@ const sq1 = new Square(10);
   const sq2 = new Square(15);
     const sq3 = new Square(20);
 
+
   sq1.square_area();
     sq1.total_sides(4);
       sq1.displayText3();
 
+
+
   sq2.square_area();
     sq2.total_sides(4)
       sq2.displayText3();
+
+
 
   sq3.square_area();
     sq3.total_sides(4)
       sq3.displayText3();
 
 
+
 sqText = sqText + "</ol>"
+
+
 
 
 let printheading1 = document.getElementById('circles').innerHTML = 'CIRCLE AREA';
   let data1 = document.getElementById('p1').innerHTML = circletext;
 
 
+
 let printheading2 = document.getElementById('rectangles').innerHTML = 'RECTANGLE AREA';
   let data2 = document.getElementById('p2').innerHTML = recText;
+
+
 
 let printheading3 = document.getElementById('squares').innerHTML = 'SQUARE AREA';
   let data3 = document.getElementById('p3').innerHTML = sqText;
