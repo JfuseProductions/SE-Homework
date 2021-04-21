@@ -1,19 +1,54 @@
     html{
+
       font-family: 'Roboto', sans-serif;
       background-color: ghostwhite;}
 
+    .nav{
+      display:flex;
+      justify-content: center;
+    }
 
-
+    #img-container{
+      display:flex;
+      justify-content: center;
+      opacity:0.1;
+    }
+    #img-logo{
+      height:200px;
+      width:200px;
+    }
+    .label-container{
+      display:flex;
+      justify-content: center;
+    }
+    #data-container{
+      display:flex;
+      justify-content: center;
+    }
     #container {
-      
+
         display: flex;
         flex-direction: column;
-        width: 40%;
+        width: 50%;
         margin-top: 20px;
         margin: 30px;
 
     }
-
+    #back{
+      width:100vw;
+      height:8-00px;
+      background-image:url(PRDM.png);
+      opacity: .5;
+      position: absolute;
+      z-index:1 ;
+    }
+    #back-container{
+      position:absolute;
+      z-index:1;
+    }
+    #img{
+      z-index:1;
+    }
     .response {
 
         text-align: center;
@@ -24,7 +59,7 @@
         box-shadow: 1px 2px 1px /*rgb(137, 165, 59);*/
         border-radius: 8%;
 
-        transition:.4s;
+        transition:.4s
         border-color .5s,
          box-shadow .5s,
          color .01s,
@@ -47,8 +82,8 @@
         border-radius: 8%;
         cursor: pointer;
 
-        transition:.4s;
-        border-color .5s,
+        transition: .4s
+          border-color .5s,
          box-shadow .5s,
          font-weight .01s,
          transform .5s;
@@ -68,8 +103,7 @@
         width: 82%;
         background-color: rgb(12, 45, 72);/*rgb(208, 220, 169);*/
         align-content: center;
-        box-shadow: 1px 2px 1px  rgb(12,45,72)/*rgb(137, 165, 59);*/
-
+        box-shadow: 1px 2px 1px  rgb(12,45,72);/*rgb(137, 165, 59);*/
     }
 
     .p1 {
@@ -82,7 +116,7 @@
 
     }
    .resolutionclass {
-    box-shadow: 1px 2px 1px rgb(12,45,72)/*rgb(137, 165, 59);*/
+    box-shadow: 1px 2px 1px rgb(12,45,72);/*rgb(137, 165, 59);*/
             width: 82%;
         }
 
