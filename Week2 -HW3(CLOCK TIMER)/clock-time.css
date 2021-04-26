@@ -1,0 +1,64 @@
+
+body {
+    background: #4509FB;
+    color: white;
+}
+
+#circle-container{
+  background-color:#20027d;
+  border:5px solid #a081fc;
+  border-radius:50%;
+  height:500px;
+  width:50%;
+  position:absolute;
+  top:5%;
+  left:24.5%;
+    box-shadow:0px .5em .5em -.4em #a081fc;
+
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: 3px solid white;
+
+    background: #202020;
+    color: white;
+    cursor: pointer;
+
+}
+
+#stopwatch {
+    font-size: 7.6rem;
+    position: absolute;
+    top: 30%;
+    left: 31.5%;
+
+}
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 29%;
+
+
+
+
+}
+#buttons li {
+    display: inline;
+    padding:5px;
+
+}
+
+button{
+  width: 120px;
+  height: 40px;
+  box-shadow:0px .5em .5em -.4em black;
+
+  cursor: pointer;
+
+  transition:.4s;
+  border-color .5s,
+   box-shadow .5s,
+   font-weight .01s,;
+}
