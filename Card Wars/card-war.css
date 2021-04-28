@@ -1,0 +1,18 @@
+
+/* CLASS for a button to be hidden until the game is started */
+.hide{ display:none; }
+
+/* INPUT BOX for AMOUNT OF PLAYERS */
+.playerSelect{
+}
+
+/* CREATE PLAYERS */
+.player{
+  display:inline-block;
+  width:200px;
+  height:200px;
+  vertical-align:middle;
+  text-align:center;
+  font-size: 2em;
+  border: 3px solid black;
+}
