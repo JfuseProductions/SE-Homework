@@ -7,15 +7,20 @@
   <title>Card War Game</title>
 </head>
 
-<body>
-  <div class="message">Select # of Players</div>
-  <div class="userPlay">
-    <input class='playerSelect' type="number" min="2" max = '4' step='2'/>
-    <button>Start</button>
-    <button class="hide">Attack</button>
-    <div class="gameplay"></div>
-    <div class="res"></div> <!--RESPONSE TO SHOW DATA(shows what happens each ROUND)-->
+<body class='background'>
+  <!-- <div class="background"></div> -->
+  <div class="userPlay menu">
+    <div>
+    <h1>Card War</h1></div>
+    <div class="message">Select # of Players</div>
+    <input class='playerSelect'/>
+    <button class='start-btn'>Start</button>
+    <button class="hide next-round">Next Round</button>
   </div>
+  <div class='userPlay main'>
+    <div class="gameplay"></div>
+  </div>
+  <div class="dataResponse"></div>
 
   <script src="card-war.js"></script>
 </body>
