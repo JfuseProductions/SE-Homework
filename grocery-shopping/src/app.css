@@ -1,0 +1,68 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Anton', sans-serif;
+  color:#0A0D25;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.list-container{
+  background-color:#E3EDF2;
+  display:flex;
+  justify-content: center;
+  padding:3%;
+}
+li{
+  list-style: none;
+
+
+}
+
+.listIcon {
+
+color:#CD212A;
+}
+
+.searchBar{
+  display:flex;
+  justify-content: center;
+
+  padding:5%;
+
+}
+
+.searchInput{
+  font-family: 'Anton', sans-serif;
+
+}
+
+header{
+  background-color:#ffca33;
+  height:10em;
+}
+header h1{
+  position:relative;
+  font-size:4rem;
+  left:1.3em;
+
+}
+
+header img{
+  position:relative;
+  left:45em;
+  bottom:7em;
+}
+
+footer{
+  background-color:#0A0D25;
+  height:14em;
+}
+
+Footer h1{
+  position:relative;
+  font-size:4rem;
+  left:1.3em;
+  color:ghostwhite;
+}
