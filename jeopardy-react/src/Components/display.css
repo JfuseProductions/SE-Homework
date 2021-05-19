@@ -1,0 +1,94 @@
+*{
+  background-color:#307eee;
+
+  color:#eedb30;
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.header-h1{
+  text-align:center;
+  font-size:3rem;
+}
+.jeopardyImage{
+  width:100%;
+  height:16em;
+  opacity:.9;
+  z-index: -1;
+}
+
+.next-question-container{
+  display:flex;
+  justify-content: center;
+  padding-top:1%;
+}
+
+.next-question {
+}
+
+.category-container{
+  display:flex;
+  justify-content: space-between;
+}
+.category{font-size:1rem;padding:1%;padding-left:10%;}
+.question{font-size:.75rem;padding:1%;padding-left:25%;}
+
+.scoring-container{
+
+  display:flex;
+  justify-content: space-between;
+  padding:1%
+}
+.scorenumber-container h2{
+  font-size:3rem;
+}
+.reset-container{
+
+  display:flex;
+  justify-content: center;
+  padding:1%;
+}
+
+.show-answer-container{
+
+  display: flex;
+  justify-content: center;
+  font-size:2.5rem;
+}
+
+.answerDisplay{
+  position:relative;
+  left:75px;
+
+
+}
+/* button styling*/
+.btn{
+  background-color:#c830ee;
+  border-color:#c830ee;
+  padding:16px;
+  box-shadow: 0 .5em .5em -.4em #c830ee;
+
+}
+
+.increase-btn{
+  background-color:#00A170;
+  border-color:#00A170;
+  box-shadow: 0 .5em .5em -.4em #00A170;
+}
+
+.decrease-btn{
+  background-color:#CD212A;
+  border-color:#CD212A;
+  box-shadow: 0 .5em .5em -.4em #CD212A;
+}
+
+.reset-btn{
+  background-color:#6930ee;
+}
+.show-answerbtn{
+  background-color: #282D3C;
+}
