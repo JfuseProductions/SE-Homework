@@ -1,0 +1,73 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  background-color: #a24dff;
+  font-family: 'Rubik', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.page{
+  width:50%;
+  position:relative;
+  margin:5% auto;
+
+}
+.form-style{
+  background-color:#f0f0f0;
+  padding:10%;
+  text-align: center;
+  height:500px
+
+
+}
+.image-container{
+
+  background-color:#f0f0f0;
+
+}
+
+
+
+.fields{
+  background-color:#f0f0f0;
+  padding:15%;
+  display:flex;
+  justify-content: center;
+
+}
+.form-header{
+  background-color:#f0f0f0;
+  text-align: center;
+}
+.field{
+background-color:#f0f0f0;
+
+
+}
+.field label{
+  background-color:#f0f0f0;
+}
+.user-input{
+  position:relative;
+
+}
+.validate{
+  color:#f0f0f0;
+
+
+  text-align: center;
+  padding:2%;
+
+}
+
+
+.btn-container{
+
+  background-color: #f0f0f0;
+}
+#btn{
+  background-color:#a24dff;
+  color:#f0f0f0;
+}
