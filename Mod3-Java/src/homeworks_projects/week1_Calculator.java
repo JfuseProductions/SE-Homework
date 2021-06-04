@@ -22,8 +22,8 @@ public class week1_Calculator {
 			case 1:
 				System.out.println("Select two numbers to perform arithmetic operation in order of selection ");
 				num1 = scan.nextInt();num2 = scan.nextInt();
-				int addResult = add( num1 , num2 );
-				System.out.println(num1 + " + " + num2 + " = " + addResult);
+				result = add( num1 , num2 );
+				System.out.println(num1 + " + " + num2 + " = " + result);
 				break;
 			case 2:
 				System.out.println("Select two numbers to perform arithmetic operation in order of selection ");
